@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주택관리공단</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="hwrap">
+                <h1>
+                    <a href="#">
+                        <img src="../web4/img/logom.png" alt="">
+                    </a>
+                </h1>
+                <div class="nav2">
+                    <ul class="navlist">
+                        <li>
+                            <a href="#">입주정보</a>
+                        </li>
+                        <li>
+                            <a href="#">고객관장</a>
+                        </li>
+                        <li>
+                            <a href="#">사업분야</a>
+                        </li>
+                        <li>
+                            <a href="#">정보공개</a>
+                        </li>
+                        <li>
+                            <a href="#">열린경영</a>
+                        </li>
+                        <li>
+                            <a href="#">공단소개</a>
+                        </li>
+                    </ul>
+                    <ul class="loginset2">
+                        <li>
+                            <a href="#">
+                                <span><img src="img/headericon1.png" alt="" class="pc"></span>
+                                <span class="loginfo">로그인</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><img src="img/headericon2.png" alt="" class="pc"></span>
+                                <span class="loginfo">회원가입</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="srchBtn"  onclick="lypop()">
+                    <a href="#">
+                        <img src="../web4/img/srchbtn.png" alt="">
+                    </a>
+                </button>
+                <nav>
+                    <div class="infomenu">
+                        <div class="upmenu">
+                            <ul class="loginset">
+                                <li>
+                                    <a href="#">
+                                        <span><img src="img/headericonm1.png" alt="" class="mo"></span>
+                                        <span><img src="img/headericon1.png" alt="" class="pc"></span>
+                                        <span class="loginfo">로그인</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span><img src="img/headericonm2.png" alt="" class="mo"></span>
+                                        <span><img src="img/headericon2.png" alt="" class="pc"></span>
+                                        <span class="loginfo">회원가입</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="closeBtn" onclick="lypopClose()">
+                                <a href="#">
+                                    <img src="img/closebtnm.png" alt="">
+                                </a>
+                            </button>
+                        </div>
+                        <div class="undermenu">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">입주정보</a>
+                                </li>
+                                <li>
+                                    <a href="#">고객관장</a>
+                                </li>
+                                <li>
+                                    <a href="#">사업분야</a>
+                                </li>
+                                <li>
+                                    <a href="#">정보공개</a>
+                                </li>
+                                <li>
+                                    <a href="#">열린경영</a>
+                                </li>
+                                <li>
+                                    <a href="#">공단소개</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="pset">
+                <p class="sldiep1">
+                    공공주택 입주민과 함께하는 <br>
+                    따뜻한 이웃
+                </p>
+                <p class="sldiep2">
+                    주택관리공단 입니다.
+                </p>
+            </div>
+            <div class="slideset">
+                <div class="slide1">
+                    <img src="img/slidem1.png" alt="">
+                </div>
+                <div class="slide2">
+                    <img src="img/slidem2.png" alt="">
+                </div>
+                <div class="slide3">
+                    <img src="img/slidem3.png" alt="">
+                </div>
+                <div class="slide4">
+                    <img src="img/slidem4.png" alt="">
+                </div>
+            </div>
+            <div class="slidefix">
+
+            </div>
+        </div>
+        <div class="mwrap1">
+            <h2>
+                <span>Quick</span>
+                <span class="lasth2">Menu</span>
+            </h2>
+            <div class="mcon">
+                <div class="track">
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm1.png" alt="">
+                            </div>
+                            <p class="tst">
+                                입주에서 <br>
+                                퇴거까지
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm2.png" alt="">
+                            </div>
+                            <p class="tst">
+                                민원신청
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm3.png" alt="">
+                            </div>
+                            <p class="tst">
+                                고지내역조회
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm4.png" alt="">
+                            </div>
+                            <p class="tst">
+                                FAQ
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm5.png" alt="">
+                            </div>
+                            <p class="tst">
+                                부정입주 <br>
+                                신고센터
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm6.png" alt="">
+                            </div>
+                            <p class="tst">
+                                임대상가 <br>
+                                모집공고
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm7.png" alt="">
+                            </div>
+                            <p class="tst">
+                                군주거지원 <br>
+                                사업소
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm8.png" alt="">
+                            </div>
+                            <p class="tst">
+                                부조리 <br>
+                                갑질피해
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm9.png" alt="">
+                            </div>
+                            <p class="tst">
+                                예비입주자 <br>
+                                조회
+                            </p>
+                        </a>
+                    </div>
+                    <div class="iconset">
+                        <a href="#">
+                            <div class="icon">
+                                <img src="img/iconm10.png" alt="">
+                            </div>
+                            <p class="tst">
+                                내부공익 <br>
+                                신고
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mwrap2">
+            <div class="wrap">
+                <div class="con1">
+                    <h2>
+                        <p class="tst">Notice</p>
+                        <p class="txt">공단소식</p>
+                    </h2>
+                    <p>
+                        주택관리공단의 이슈와 <br>
+                        정보를 안내해드립니다.
+                    </p>
+
+                </div>
+                <div class="plus">
+                    <button class="mo">
+                        <img src="img/plusbtnm.png" alt="">
+                    </button>
+                    <button class="pc">
+                        <img src="img/plusbtn.png" alt="">
+                    </button>
+                </div>
+                <div class="con2">
+                        <h3 class="on"><button>공단 새소식</button></h3>
+                        <div class="listset">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3><button>질의응답</button></h3>
+                        <div class="listset">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준2
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.2</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3><button>고객의견</button></h3>
+                        <div class="listset">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준3
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.3</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="p1">
+                                            임대주택 수선비 부담 및 원상복구 기준
+                                        </p>
+                                        <p class="p2">【 임대주택 수선비 부담 및 원상복구
+                                            기준 알림 】<br>
+                                        임대주택 수선비 부담 및 원상복구 기준이
+                                            변경되었습니다. 참고바랍니다.</p>
+                                        <p class="p3">2016-07-27</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="mwrapset">
+            <div class="mwrap3">
+                <div class="con">
+                    <h2>
+                        <p class="tst">Recruitment</p>
+                        <p class="txt">예비입주자모집</p>
+                        <p class="tit">
+                            다양한 주택에 <br>
+                            많은 관심 바랍니다.
+                        </p>
+                    </h2>
+                    <div class="plus">
+                        <button class="mo"><img src="img/plusbtnm.png" alt=""></button>
+                        <button class="pc"><img src="img/plusbtn.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="infoset">
+                    <p class="p1">
+                        2023년 9월 익산한스빌단지 <br>
+                        국민임대주택 예비입주자 완화 모집 공고
+                    </p>
+                    <p class="p2">
+                        본 모집공고는 인터넷, 모바일 등 비대면으로 접수합니다.<br>
+                        단, 65세 이상 고령자 및 정보취약계층 등 인터넷 접수의 방법으로<br>
+                        신청을 할 수 없는 자에 한해 현장 접수도 가능합니다.
+                    </p>
+                    <p class="date">2023-09-12</p>
+                </div>
+            </div>
+            <div class="mwrap4">
+                <div class="con">
+                    <h2>
+                        <p class="tst">report</p>
+                        <p class="txt">내부공익신고</p>
+                    </h2>
+                    <div class="infobox">
+                        <button class="p1">
+                                내부공익 식고 및 확인
+                        </button>
+                    </div>
+                </div>
+                <div class="infoimg">
+                    <a href="#" >
+                        <img src="img/wrap4imgm.png" alt="" class="mo">
+                    </a>
+                    <a href="#" >
+                        <img src="img/wrap4img.png" alt="" class="pc">
+                    </a>
+                </div> 
+
+            </div>
+        </div>
+        <div class="mwrap5">
+            <div class="wrap">
+                <h2>
+                    <span>주요</span>
+                    <span class="after">서비스</span>
+                </h2>
+                <div class="con">
+                    <div class="infobox1">
+                        <p class="p1">
+                            행사안내
+                        </p>
+                        <div class="p2set">
+                            <p>
+                                아이들은 미래를 향한
+                            </p>
+                            <p class="p2after">
+                                푸른 꿈!
+                            </p>
+                        </div>
+                        <div class="arrow">
+                            <img src="img/arrowm.png" alt="">
+                        </div>
+                        <div class="kid">
+                            <img src="img/wrap5imgm.png" alt="">
+                        </div>
+                    </div>
+                    <div class="infobox2">
+                        <ul class="list">
+                            <li >
+                                <button class="on">
+                                    경영가치체계
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            주택관리공단의 미션과 비전, 그리고 핵심가치를 확인할 수 있습니다.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button>
+                                    포토갤러리
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            다양한 사진자료를 확인해보세요.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button>
+                                    유지보수/점검사업
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            건축물에 대한 각종 안전점검을 실시하여 재해재난을 예방해보세요.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button>
+                                    부정입주신고센터
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            임대아파트의 임차권불법 전매, 전대 등 임대주택불법거래를 신고해주세요.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button>
+                                    질의응답
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            주택관리공단은 항상 고객님의  의견에 귀를 기울이고 있습니다.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button>
+                                    고객의견
+                                </button>
+                                <ul class="sublist">
+                                    <li>
+                                        <a href="#">
+                                            게시판 외 회사업무와 관련하여 궁금한 사항을 질의 할 수 있습니다.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mwrap6">
+            <div class="mcon">
+                <div class="bimg">
+                    <img src="img/bannerm1.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm2.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm3.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm4.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm5.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm6.png" alt="">
+                </div>
+                <div class="bimg">
+                    <img src="img/bannerm7.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="pset">
+                <p>
+                    개인정보처리방침  
+                </p>
+                <p>
+                    영상정보처리기기설치운영     
+                </p>
+                <p>
+                    이메일주소무단수집거부    
+                </p>
+                <p>
+                    전현직임직원전용  
+                </p>
+            </div>
+            <address>
+                52852 경상남도 진주시 사들로 137 대표 : 서종균 | TEL:1670-2727 <br>
+                COPYRIGHT(C) KOREA HOUSING MANAG  CO_LTD. ALL RIGHTS<br>
+                RESERVED. MAIL TO WEBMASTER
+            </address>
+            <div class="logo">
+                <img src="img/footerimgm.png" alt="">
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script>
+  $('.mwrap6 .mcon').slick({
+    slidesToShow: 3,
+    autoplay: true,
+  autoplaySpeed: 2000,
+  
+  arrows: false
+  })
+  $('.slideset').slick({
+    dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  arrows: false,
+  dots:false,
+  autoplay: true,
+  autoplaySpeed: 2000,
+
+  })
+function lypop(){
+    $('header nav').show();
+}
+function lypopClose(){
+    $('header nav').hide();
+}
+$('.mwrap2 .con2 h3 button').click(
+    function(){
+        var _this = $(this);
+        var _thisParent = _this.parent();
+        $('.mwrap2 .con2 h3').removeClass("on")
+        _thisParent.addClass("on")
+        $('.mwrap2 .con2 .listset').hide()
+        _thisParent.next().show()
+    }
+)
+$('.mwrap5 .infobox2 .list > li > button').click(
+    function(){
+        var _this = $(this);
+        
+        $('.mwrap5 .infobox2 .list > li > button').removeClass("on")
+        $(this).addClass("on")
+    }
+)
+</script>
+</html>

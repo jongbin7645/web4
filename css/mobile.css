@@ -1,0 +1,599 @@
+body::-webkit-scrollbar {
+    width: 8px;  /* 스크롤바의 너비 */
+}
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+header .nav2{
+    display: none;
+}
+
+.hwrap{
+    display: flex;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+header h1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+header h1 img{
+    width: 70%;
+}
+header .srchBtn{
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+header nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(5px);
+    display: none;
+    z-index: 100;
+}
+
+header nav .infomenu{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+header nav .upmenu{
+
+    height: 100px;
+    background-color: #224160;
+    position: relative;
+}
+header nav .upmenu .loginset{
+    display: flex;
+    line-height: 100px;
+    margin-left: 30px;
+}
+header nav .upmenu .loginset li{
+    margin-left: 30px;
+}
+header nav .upmenu .loginset li:first-of-type{
+    margin-left: -15px;
+}
+header nav .upmenu .loginset li:last-of-type{
+    margin-left: 15px;
+}
+header nav .upmenu .loginset li a{}
+header nav .upmenu .loginset li .mo{
+    width: 20px;
+    vertical-align: -3px;
+}
+header nav .upmenu .loginset li .pc{
+    display: none;
+}
+header nav .upmenu .loginset li .loginfo{
+    color: white;
+    font-size: 15px;
+    
+}
+header nav .upmenu .closeBtn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+header nav .upmenu .closeBtn img{
+    width: 30px;
+}
+header nav .undermenu{
+    background-color: white;
+    height: 100%;
+}
+header nav .undermenu .list{}
+header nav .undermenu .list li{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #c6cbcc;
+}
+header nav .undermenu .list li a{
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    
+    background-color: #f8f1f1;
+    overflow: hidden;
+}
+.banner .pset{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.banner .slidefix{
+    display: none;
+}
+.banner .sldiep1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.banner .sldiep2{
+    font-size: 28px;
+    padding-top: 10px;
+}
+.banner .slideset{
+    
+  padding-top: 180px;
+  margin-top: 20px;
+    
+}
+.banner .slideset img{
+    width: 100%;
+}
+.banner .slideset .slide{
+    
+}
+.banner .slideset .slide:first-of-type{
+    
+}
+.mwrap1{
+    overflow: hidden;
+}
+.mwrap1 h2{
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.mwrap1 h2 span{}
+.mwrap1 h2 .lasth2{
+    font-weight: 500;
+}
+
+.mwrap1 .mcon{
+    overflow-x: scroll;
+    display: block;
+
+}
+.mwrap1 .mcon::-webkit-scrollbar{
+    height: 8px;
+}
+.mwrap1 .mcon::-webkit-scrollbar-thumb{
+    background:  #217af4;
+    border-radius: 10%;
+    width: 20%;
+    height: 100%;
+}
+.mwrap1 .mcon::-webkit-scrollbar-track{
+    background: rgba(33, 122, 244, .1);
+}
+.mwrap1 .mcon .track{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.mwrap1 .mcon .track .iconset{
+  width: 103px;
+  margin-left: 20px;
+}
+.mwrap1 .mcon .track .iconset:first-of-type{
+    margin-left: 0;
+}
+.mwrap1 .mcon .iconset a{}
+.mwrap1 .mcon .iconset .icon{
+    background-color: #c4f2ff;
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+}
+.mwrap1 .mcon .iconset .icon:hover{
+    background-color: #6761e9;
+    transition: all .2s;
+}
+.mwrap1 .mcon .iconset .icon:hover img{
+    filter: opacity(.5) drop-shadow(0 0 0 );;
+    
+}
+.mwrap1 .mcon .iconset .icon img{
+    width: 76px;
+    display: block;
+    margin: 0 auto;
+    transform: translate(0, 10%);
+}
+.mwrap1 .mcon .iconset .tst{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.mwrap2{
+    position: relative;
+    background-color: #f7f0f7;
+    width: 100%;
+    padding: 30px 20px;
+   
+}
+.mwrap2 .wrap{
+
+  
+}
+.mwrap2 h2{}
+.mwrap2 h2.on{}
+.mwrap2 h2 .tst{
+    font-size: 18px;
+    border-top: 1px solid #000;
+    width: 57px;
+    color: #999999;
+    font-weight: 100;
+}
+.mwrap2 h2 .txt{
+    font-size: 30px;
+    color: #000;
+    font-weight:;
+}
+.mwrap2 .con1 > p{
+    display: none;
+}
+.mwrap2 .plus{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.mwrap2 .plus:hover{
+    border: 2px solid #999999;
+    border-radius: 10px;
+    transform: scale(110%);
+    transition: all .1s;
+}
+.mwrap2 .plus .pc{
+    display: none;
+}
+.mwrap2 .con2{
+    overflow: hidden;
+}
+.mwrap2 .con2 > h3{
+float: left;
+}
+
+.mwrap2 .con2 h3{
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    display: block;
+    margin-right: 10px;
+    padding: 5px;
+    font-weight: bold;
+    
+    
+}
+.mwrap2 .con2 h3 > button{
+    font-size: 18px;
+}
+.mwrap2 .con2 h3.on{
+    background-color: #6761e9;
+    color: white;
+}
+.mwrap2 .con2 h3.on > button{
+    color: white;
+}
+.mwrap2 .con2 .listset{
+    
+    width: 100%;
+    float: right;
+    margin-left: -100%;
+    margin-top: 80px;
+    display: none;
+
+   
+}
+.mwrap2 .con2 .listset:first-of-type{
+    display: block;
+}
+.mwrap2 .con2 .listset .list{}
+.mwrap2 .con .listset .list li{
+    margin-top: 30px;
+}
+.mwrap2 .con2 .listset .list li a{}
+.mwrap2 .con2 .listset .list li .p1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.mwrap2 .con2 .listset .list li .p2{
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.mwrap2 .con2 .listset .list li .p3{
+    font-size: 16px;
+    color: #999999;
+    margin-top: 10px;
+}
+.mwrapset{
+    display: unset;
+  }
+.mwrap3{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+.mwrap3 h2{
+    margin-top: 20px;
+}
+.mwrap3 .tst{
+    font-size: 18px;
+    border-top: 1px solid #333;
+    width: 100px;
+    color: #999999;
+    font-weight: 100;
+}
+.mwrap3 .txt{
+    font-size: 30px;
+    color: #000;
+}
+.mwrap3 .tit{
+    display: none;
+}
+.mwrap3 .plus{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.mwrap3 .plus:hover{
+    border: 2px solid #999999;
+    border-radius: 10px;
+    transform: scale(110%);
+    transition: all .1s;
+}
+.mwrap3 .plus .pc{
+    display: none;
+}
+.mwrap3 .infoset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mwrap3 .infoset .p1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.mwrap3 .infoset .p2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.mwrap3 .infoset .date{
+    font-size: 16px;
+    font-weight: 100;
+    color: #999999;
+    margin-top: 10px;
+}
+.mwrap4{
+    width: 100%;
+    padding: 20px;
+    background-color: #e4f2f8;
+    position: relative;
+}
+.mwrap4 h2{
+    margin-top: 20px;
+}
+.mwrap4 .tst{
+    font-size: 18px;
+    border-top: 1px solid #333;
+    width: 55px;
+    color: #999999;
+    font-weight: 100;
+}
+.mwrap4 .txt{
+    font-size: 30px;
+    color: #000;
+    white-space: nowrap;
+}
+.mwrap4 .infobox{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mwrap4 .infobox .p1{
+
+    background-color: #6761e9;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+.mwrap4 .infobox .p1:active{
+    background-color: purple;
+    color: #fff;
+}
+.mwrap4 .infoimg{
+    width: 100%;
+    margin-top: 20px;
+}
+.mwrap4 .infoimg .pc{
+    display: none;
+    
+}
+.mwrap4 .infoimg .mo{
+    width: 100%;
+}
+.mwrap5{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: #f3edee;
+}
+.mwrap5 h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mwrap5 h2 .after{
+ 
+}
+.mwrap5 .infobox1{
+    background-color: #224160;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+}
+.mwrap5 .infobox1 .p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.mwrap5 .infobox1 .p2set{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.mwrap5 .infobox1 .p2set .p2after{
+    font-weight: bold;
+}
+.mwrap5 .infobox1 .arrow{}
+.mwrap5 .infobox1 .arrow img{
+    width: 30px;
+}
+.mwrap5 .infobox1 .kid{
+    margin-bottom: 20px;
+}
+.mwrap5 .infobox1 .kid img{
+    width: 100%;
+}
+.mwrap5 .infobox2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.mwrap5 .infobox2 .list{
+}
+.mwrap5 .infobox2 .list > li{
+    margin-top: 15px;
+}
+.mwrap5 .infobox2 .list > li.on{
+
+}
+.mwrap5 .infobox2 .list > li > button.on{
+    color: white;
+    font-weight: bold;
+    background-color: #217af4;
+    width: 100%;
+    display: block;
+}
+.mwrap5 .infobox2 .list > li > button{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    text-align: unset;
+}
+.mwrap5 .infobox2 .list > li > .sublist{
+    margin-top: 5px;
+
+}
+.mwrap5 .infobox2 .list > li > .sublist > li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+.mwrap5 .infobox2 .list > li > .sublist > li > a{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #333;
+    font-weight: 600;
+    
+
+  
+    
+}
+.mwrap6{
+    position: relative;
+    padding: 10px;
+}
+.mwrap6 .mcon{
+    display: flex;
+}
+.mwrap6 .mcon .bimg{
+   padding-left: 10px;
+   width: 33.333%;
+   
+}
+.mwrap6 .mcon .bimg img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+footer{
+    background-color: #757575;
+    width: 100%;
+    position: relative;
+    padding:20px 10px;
+}
+footer .pset{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    
+    margin-top: 20px;
+}
+footer .pset p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+footer .pset p:first-of-type{
+    
+}
+footer .pset p:last-of-type{
+  
+   
+}
+footer address{
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+footer .logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .logo img{}
+
+

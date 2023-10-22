@@ -1,0 +1,351 @@
+@media all and (min-width:1200px){
+nav{
+  display: none;
+}
+header h1{
+  left: 200px;
+  top: 25px;
+ 
+}
+header h1 img{
+  width: 270px;
+}
+header .srchBtn{
+  display: none;
+}
+header .nav2{
+  display: block;
+}
+header .nav2 .navlist{
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  
+}
+header .nav2 .navlist li{
+  margin-left: 30px;
+}
+header .nav2 .navlist li a{
+  font-size: 20px;
+  font-weight: bold;
+}
+header .loginset2{
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  
+}
+header .loginset2 li{
+  margin-left: 30px;
+}
+header .loginset2 li:first-of-type{
+  margin-left: 0;
+}
+header .loginset2 li a{}
+header .loginset2 li .pc{
+  width: 30px;
+  vertical-align: -7px;
+}
+.banner .slideset{
+  margin-left: 670px;
+  padding-top: unset;
+  margin-top: unset;
+  
+}
+.banner .slideset img{
+  display: none;
+
+}
+.banner .slideset .slide1{
+  background: url(../img/slide1.png) no-repeat 0 0;
+  width: 100%;
+  height: 810px;
+  background-size: cover;
+}
+.banner .slideset .slide2{
+  background: url(../img/slide2.png) no-repeat 0 0;
+  width: 100%;
+  height: 810px;
+  background-size: cover;
+}
+.banner .slideset .slide3{
+  background: url(../img/slide3.png) no-repeat 0 0;
+  width: 100%;
+  height: 810px;
+  background-size: cover;
+}
+.banner .slideset .slide4{
+  background: url(../img/slide4.png) no-repeat 0 0;
+  width: 100%;
+  height: 810px;
+  background-size: cover;
+}
+.banner .slidefix{
+  background: url(../img/slidefix.png) no-repeat 0 0;
+  width: 100%;
+  height: 469px;
+  z-index: 300;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  
+}
+.banner .pset{
+  top: 150px;
+  left: 200px;
+}
+.mwrap1{
+  padding: 30px 0;
+}
+.mwrap1 .mcon{
+  overflow-x: unset;
+  display: block;
+
+}
+.mwrap1 .mcon .track{
+  display: flex;
+  justify-content: center;
+}
+.mwrap1 .mcon .track .iconset{
+  margin-left: 30px;
+}
+.mwrap2{
+  background-color: unset;
+}
+.mwrap2 .wrap{
+  display: flex;
+}
+.mwrap2 .con1{
+  position: relative;
+  width: 31.3%;
+  background-color: #f7f0f7;
+  margin-left: -20px;
+}
+.mwrap2 .plus{
+  top: 65%;
+  right: unset;
+  left: 9%;
+}
+    
+
+.mwrap2 .plus .pc{
+  display: block;
+}
+.mwrap2 .plus .mo{
+  display: none;
+}
+.mwrap2 .con1 h2{
+position: absolute;
+top: 25%;
+left: 30%;
+}
+.mwrap2 .con1 > p{
+  
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  color: #999999;
+  top: 45%;
+  left: 30%;
+}
+.mwrap2 .con2 > h3{
+  float: unset;
+
+}
+.mwrap2 .con2 h3{
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+  display: block;
+  margin-right: 10px;
+  padding: 5px;
+  position: absolute;
+  top: 25%;
+  left: 22.7%;
+  width: 110px;
+  line-height: 37px;
+  height: 44px;
+  
+  
+}
+.mwrap2 .con2 h3:nth-of-type(2){
+  top: 34%;
+}
+.mwrap2 .con2 h3:nth-of-type(3){
+  top: 43%;
+}
+.mwrap2 .con2{
+  width: 70%;
+  padding: 10px;
+  margin-left: 30px;
+}
+.mwrap2 .con2 .listset{
+  margin-top: unset;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.mwrap2 .con2 .listset .list{
+  display: flex;
+  width: 85%;
+
+}
+.mwrap2 .con2 .listset .list li{
+  padding: 30px;
+}
+.mwrap2 .con2 .listset .list li .p2{
+  text-overflow: unset;
+  word-break: unset;
+  width: 100%;
+  overflow: hidden;
+  white-space: unset;
+  font-size: 20px;
+  font-weight: 500;
+ 
+}
+.mwrap2 .con2 .listset .list li .p3{
+  margin-top: 20px;
+}
+.mwrapset{
+  display: flex;
+}
+.mwrap3{
+  display: flex;
+  padding-left: 160px;
+}
+.mwrap3 .tst{
+  font-size: 14px;
+  border-top: 1px solid #333;
+  width: 75px;
+  color: #999999;
+  font-weight: 100;
+}
+.mwrap3 .txt{
+  font-size: 28px;
+  color: #000;
+}
+.mwrap3 .tit{
+  display: block;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.mwrap3 .plus{
+  position: absolute;
+  top: unset;
+  right: unset;
+  top: 70%;
+}
+.mwrap3 .plus .pc{
+  display: block;
+}
+.mwrap3 .plus .mo{
+display: none;
+}
+.mwrap3 .infoset{
+  margin-left: 50px;
+}
+.mwrap3 .infoset .p1{
+  font-size: 22px;
+  font-weight: 500;
+}
+.mwrap3 .infoset .p2{
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 10px;
+  width: 350px;
+}
+.mwrap4{
+  display: flex;
+  padding: 50PX 50PX;
+}
+.mwrap4 h2{
+  margin-top: 30px;
+}
+.mwrap4 .con{}
+.mwrap4 .infoimg .pc{
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+.mwrap4 .infoimg .mo{
+  display: none;
+}
+.mwrap4 .infobox{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.mwrap5 > .wrap{
+  margin-left: 150px;
+}
+.mwrap5{
+  padding-bottom: 0px;
+}
+.mwrap5 .con{
+  display: flex;
+
+}
+.mwrap5 .infobox1{
+  background-color: #224160;
+  width: 400px;
+  padding: 40px;
+  margin-top: 30px;
+}
+.mwrap5 .infobox2{
+  margin-top: unset;
+  margin-bottom: unset;
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 30px;
+  
+}
+.mwrap5 .infobox2 .list{}
+.mwrap5 .infobox2 .list > li{
+  margin-top: unset;
+  float: left;
+  width: 30%;
+  height: 240px;
+  margin-left: 20px;
+}
+.mwrap5 .infobox2 .list > li > .sublist > li{
+  overflow: unset;
+  text-overflow: unset;
+  width: 100%;
+  white-space: unset;
+  word-break: unset;
+  margin-top: 20px;
+}
+.mwrap5 .infobox2 .list > li > .sublist > li > a{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #333;
+    font-weight: 600;
+    
+}
+.mwrap6 .mcon .bimg img{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+footer .pset{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer address{
+  font-size: 18px;
+  font-style: normal;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+}
